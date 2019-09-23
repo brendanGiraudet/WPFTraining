@@ -64,6 +64,9 @@
     <Compile Include="HelloBoundWorld.xaml.cs">
       <DependentUpon>HelloBoundWorld.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ListViewFiltering.xaml.cs">
+      <DependentUpon>ListViewFiltering.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PropertyChange.xaml.cs">
       <DependentUpon>PropertyChange.xaml</DependentUpon>
     </Compile>
@@ -86,6 +89,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="HelloBoundWorld.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListViewFiltering.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
