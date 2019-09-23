@@ -70,6 +70,9 @@
     <Compile Include="PropertyChange.xaml.cs">
       <DependentUpon>PropertyChange.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Snake.xaml.cs">
+      <DependentUpon>Snake.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SwitchCultureInfo.xaml.cs">
       <DependentUpon>SwitchCultureInfo.xaml</DependentUpon>
     </Compile>
@@ -112,6 +115,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="PropertyChange.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Snake.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
