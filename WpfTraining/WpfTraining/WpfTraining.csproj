@@ -58,6 +58,9 @@
     <Compile Include="ConvertValue.xaml.cs">
       <DependentUpon>ConvertValue.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Editor.xaml.cs">
+      <DependentUpon>Editor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="HelloBoundWorld.xaml.cs">
       <DependentUpon>HelloBoundWorld.xaml</DependentUpon>
     </Compile>
@@ -71,6 +74,10 @@
       <DependentUpon>ToolTip.xaml</DependentUpon>
     </Compile>
     <Page Include="ConvertValue.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Editor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -144,6 +151,18 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="images\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\disquette.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\bold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\italic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\underline.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
