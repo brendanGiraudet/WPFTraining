@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="HelloBoundWorld.xaml.cs">
+      <DependentUpon>HelloBoundWorld.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SwitchCultureInfo.xaml.cs">
       <DependentUpon>SwitchCultureInfo.xaml</DependentUpon>
     </Compile>
@@ -62,6 +65,10 @@
       <DependentUpon>ToolTip.xaml</DependentUpon>
     </Compile>
     <Page Include="ExceptionHandlingSample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HelloBoundWorld.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
