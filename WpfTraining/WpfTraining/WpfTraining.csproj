@@ -58,6 +58,9 @@
     <Compile Include="SwitchCultureInfo.xaml.cs">
       <DependentUpon>SwitchCultureInfo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ToolTip.xaml.cs">
+      <DependentUpon>ToolTip.xaml</DependentUpon>
+    </Compile>
     <Page Include="ExceptionHandlingSample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -78,6 +81,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="SwitchCultureInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ToolTip.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -107,6 +114,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\white_page.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\folder.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\help.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
